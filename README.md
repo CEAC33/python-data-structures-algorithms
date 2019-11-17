@@ -294,3 +294,191 @@ If you've done it, and it's impressive enough to "make the cut" (you shouldn't j
 40.- Only if relevant and you need more content: If you are listing courses, are you listing both names and titles, and perhaps some narrative about what you did? One-two vivid descriptions >> a list of 10 courses names.
 
 41.- Do you realize that the resume is just a ticket to an interview?
+
+## Online Presence
+
+### Linkedin
+
+- One of the most important social media platforms for job searching and networking
+- It is imperative to have one as you job search!
+
+**What is Linkedin**
+- LinkedIn is a business-oriented social networking service
+- Most of the site's revenue comes from selling access to information about its users to recruiters and sales professionals
+
+**Linkedin Connections**
+- You can use your email contacts to get connections!
+
+**Linkedin Recommendations**
+- Start off by asking people you **have worked under or with** to give you recommendations
+- Thank them and if possible return the favor by recommending them back
+- You can also ask professors and teachers to leave recommendations for your education
+- Again, only ask people you personally know!
+
+**Linkedin Skill Endorsements**
+- Having scores might give your profile an edge
+- Recruiters sometimes keep an eye out for these
+- They're actual usefulness is debatable, different people vary their perception of the seriousness of an endorsement
+
+**Linkedin Following**
+- You can follow people on Linkedin
+- If you produce content (blog posts, articles, new code, etc...) you can post it on Linkedin to your followers!
+- They will see it in their feed and get notified
+- You can also add a "follow me" button to your personal website
+
+**Linkedin as a Job Search Tool**
+- Linkedin has its own job hunting platform!
+- Check it out at www.linkedin.com/jobs
+
+**Linkedin Premium**
+- Linkedin Premium allows you to InMail people (such as recruiters)
+- Allows you to connect with and contact recruiters directly
+- Gives you improved information in Linkedin's Job Search tools
+- One month free trial
+
+**Discussion Etiquette**
+- Please be polite and thoughtful when posting your Linkedin Profile to the discussion boards
+- Feel free to post if you genuinely need help, and try to give honest feedback to others
+- However don't just spam the boards with your profile!
+
+### GitHub
+
+**GitHub**
+- Git is an open source version control software used to track changes in code
+- GitHub is a web-based Git repository hosting service
+- You can host your code on GitHub for free and keep track of changes to it!
+- Need to pay GitHub for private repositories
+
+Guides:
+- https://guides.github.com/activities/hello-world/
+- https://lab.github.com/
+
+- Make sure to post personal projects that usee code to GitHub!
+- Have them presentable with README files!
+- Recruiters look at GitHub for potential hires
+- GitHub also has its own Job Search tool!
+
+GitHub Jobs:
+- https://jobs.github.com/
+
+### Personal Website and Portfolio
+
+**Blog Platforms**
+- www.medium.com
+- www.wordpress.com
+- www.blogger.com
+
+**Website Creation**
+If you plan on applying for web development or UI positions, then you should definitely be building your site from scratch (HTML, CSS, JavaScript, etc...)
+
+**Website Creation Services**
+- Weebly
+- Wix
+- SquareSpace
+
+- Many options, google around for more!
+- Many provide free versions!
+
+**Domain**
+- NameCheap
+- Google Domains
+
+**Personal Website**
+- Make sure to keep it updated during your job search!
+- Not as necessary as a Linkedin, but can definitely improve your standings among other candidates!
+
+## Networking
+
+### Building a Network
+
+**Networking**
+- A huge amount of jobs are never publicized!
+- Companies hire through the networks of their employees!
+
+- Companies get overwhelmed with applications on their official site
+
+**Building a Network**
+- Starting to build a network of contacts can be difficult
+- Let's look at some options to build out your network!
+
+**Building a Personal Network**
+- Alumni organizations and Classmates
+- Children's contacts: PTA, Little League, Scouts, parents of their friends
+- Former employers, including supervisors and coworkers
+- Friends and Relatives
+- Members of clubs: Health club, softball team, hiking club
+- Members of your church, temple, synagogue or mosque
+- Neighbors: Current and past
+- Professionals: Attorneys, accountants, doctors, dentists, insurance agents, pharmacists, veterinarians
+- Volunteer associations: Past and present
+
+- Be Proactive
+- Give as much as you get
+- Take full advantage of the opportunities
+
+### Networking Events
+
+**Conferences**
+- Consider going to a conference to meet people in your industry
+- Many conferences also have Hiring Fairs
+- For example
+  - PyCon
+  - PyData
+  
+**MeetUps**
+- One of the original sources for networking is www.meetup.com
+- Look up programming languages and topics you're interested in!
+
+**Eventful and Eventbrite**
+- Not as many "like-minded" group events as MeetUps but has more professional and official events
+- May need to buy tickets for those events
+
+## Job Searching
+
+### Organization of Job Search
+
+**Spreadsheets**
+- https://drive.google.com/file/d/18i7Dq_yoEpbBY1Cqfv1juKTSSHwKX9T3/view?usp=sharing
+
+**Websites**
+- JobHero allows you to track from various sites in browser
+- Check it out here:
+  - https://gojobhero.com/
+  
+**Job Funnel**
+- So why is it so important to track your job search?
+- You will most likely be applying for ~100 jobs
+  - (depending on where you live, job availability, experience, etc...)
+  
+- Job Hunting can also be extremely competitive
+- Do not focus exclusively on well-known companies
+- There are plenty of great opportunities at companies you haven't heard of
+
+- 100-150 Applications
+- 20-30 Responses
+- 10-15 Phone Screens
+- 5-10 On-Site Interviews
+- 2-5 Second On-Site Interviews
+- 1-3 Offers
+
+### Job Search Sites
+
+- https://angel.co/jobs
+- https://www.glassdoor.com
+- https://www.linkedin.com/jobs
+- https://www.indeed.com
+- https://www.monster.com/
+- https://www.dice.com/
+- https://stackoverflow.com/jobs
+- https://www.androidjobs.io/
+- https://www.simplyhired.com/
+- https://www.wayup.com/ - Internships
+
+### Company Matching Sites
+
+- https://hired.com/
+- https://whitetruffle.com/
+- https://www.beseen.com/
+- https://underdog.io/ - Startups
+- https://triplebyte.com/ - YC Startups
+- https://anthology.co/
