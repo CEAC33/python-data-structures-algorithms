@@ -1,4 +1,4 @@
-# python-data-structures-algorithms
+# python-data-structures-algorithms-interview
 
 ## Overview
 
@@ -482,3 +482,211 @@ If you plan on applying for web development or UI positions, then you should def
 - https://underdog.io/ - Startups
 - https://triplebyte.com/ - YC Startups
 - https://anthology.co/
+
+## During the Interview (Non-Technical)
+
+### 5 Steps of an Interview
+
+**Preparation**
+- Get up earlier than usual if you have a morning interview
+- Confirm the appointment
+- Make sure to bring extre resumes
+- Have proper directions and the name of the person you should ask for when you arrive
+
+**Arrival**
+- Arrive 10 to 12 minutes before the scheduled appointment
+- The moment you arrive consider yourself as making impressions on prospective employers
+- Make sure to visit a restroom beforehand
+- Be aware of your body language
+
+**Introduction**
+- Give a firm handshake with a smile while maintaining eye contact
+- Speak with confidence and energy
+- Determine the interviewer's communication style and adapt to it
+
+**Communication**
+- Make good use of openings
+- Prepare for commmon questions
+- Communicate your skills, qualifications, and credentials clearly
+- Demonstrate your ability to adapt and learn
+- Plan, prepare, practice and rehearse!
+
+**Closing**
+- Make sure to ask follow up questions
+  - Check out list of follow up questions in technical section
+- Receive Salary and Compensation packages (after you receive an offer)
+
+### Tough Interview Questions
+
+- Demonstrate your ability to create
+- Use real examples from the past
+- Show you'll fit in
+
+1.- Tell me about yourself
+2.- Why are you leaving your current position?
+3.- Why do you want this position?
+4.- Where do you see yourself in 5 years?
+5.- What is your greatest weakness?
+6.- What do you know about our copany?
+7.- What's the most difficult situation you had to face at a job?
+8.- What do you think makes a successful manager?
+
+### Questions for Students
+
+1.- Why did you choose this profession/major?
+2.- What subjects did you enjoy the most and which did you enjoy the least?
+3.- What's your greatest achievement in school?
+
+### Special Case Interview Questions
+
+1.- How do you explain the gaps that appear in your resume?
+2.- Why has it taken you so long to find work?
+3.- Have you ever been fired?
+4.- How many positions have you applied for?
+
+## Post Interview
+
+### Salary Negotiations
+
+- Don't bring up salary before the company initiates the conversation
+- Always provide a range based off of a minimum
+- Understand what you're worth
+- Be prepared to support your numbers with evidence
+
+- Don't forget to include benefits as part of the total compensation package
+- Don't be too quick to accept a counter offer
+- Give yourself room to negotiate
+
+Resources for finding out relevant salary information
+- www.salary.com
+- www.payscale.com
+- www.glassdoor.com
+
+How to Negotiate Your Job Offer - Prof. Deepak Malhotra (Harvard Business School)
+- https://www.youtube.com/watch?v=km2Hd_xgo9Q
+
+### Salary Questions and Answers
+
+1.- What kind of salary are you looking for?
+2.- What is your current salary?
+3.- What would you like to be earning 5 years from now?
+
+### Preparing References
+
+- Identtify 3-5 people to be potential references
+  - Usually 3 are required
+- Always contact at the beginning of your job search
+- Get their email and phone number
+- Call your reeferencees letting them know they should expect to be contacted
+
+**Who to ask for a Reference**
+- Superiors
+  - Promote your value and ability to perform, produce, and contribute to organizational goals
+- Peers
+  - Endorse your ability to work together as a team member and leader. Confirms your ability to put the organizational agenda before your personal agenda
+- Subordinates
+  - Vouch for your training and coaching skills. Promoting your supervision skills
+- Clients and Vendors
+  - Affirm your high-quality customer-service and professional integrity
+  
+## Algorithm Analysis and Big-O
+
+### Introduction to Algorithm Analysis and Big-O
+
+**Why analyze algorithms?**
+- An **algorithm** is simply a procedure or formula for solving a problem
+- Some problems are famous enough that the algorithms have names, as well as some procedures being common enough that the algorithm associated with it also has a name
+
+**How do analyze algorithms and how can we compare algorithms against each other?**
+- Imagine if you and a friend both came up with functions to sum the numbers to 0 to N
+- How would you comparee the functions and algorithms within the functions?
+
+```python
+def sum1(n):
+  final_sum = 0
+  
+  for x in range(n+1):
+    final_sum += x
+    
+  return final_sum
+```
+
+```python
+def sum2(n):
+  return (n*(n+1))/2
+```
+
+**So how can we objectively compare the algorithms?** 
+- We could compare the amount of space they take in memory or we could also compare how much time it takes each function to run. 
+- We can use the built in %timeit magic function in jupyter to compare the time of the functions. The %timeit magic in Jupyter Notebooks will repeat the loop iteration a certain number of times and take the best result
+
+```python
+%timeit sum1(100)
+```
+
+The slowest run took 5.15 times longer than the fastest. This could mean that an intermediate result is being cached 
+100000 loops, best of 3: 4.86 µs per loop
+
+```python
+%timeit sum2(100)
+```
+
+The slowest run took 16.54 times longer than the fastest. This could mean that an intermediate result is being cached 
+10000000 loops, best of 3: 173 ns per loop
+
+We can see that the second function is much more efficient! Running at a much faster rate than the first. However, we can not use "time to run" as an objective measurement, because that will depend on the speed of the computer itself and hardware capabilities. So we will need to use another method, **Big-O**!
+
+### Big-O Notation
+
+Big-O notation describes how quickly runtime will grow relative to the input as the input get arbitrarily large.
+
+Let's examine some of these points more closely:
+
+- Remember, we want to compare how quickly runtime will grows, not compare exact runtimes, since those can vary depending on hardware.
+
+- Since we want to compare for a variety of input sizes, we are only concerned with runtime grow relative to the input. This is why we use **n** for notation.
+
+- As n gets arbitrarily large we only worry about terms that will grow the fastest as n gets large, to this point, Big-O analysis is also known as **asymptotic analysis**
+
+As for syntax sum1() can be said to be **O(n)** since its runtime grows linearly with the input size. In the next lecture we will go over more specific examples of various O() types and examples. To conclude this lecture we will show the potential for vast difference in runtimes of Big-O functions.
+
+**Runtimes of Common Big-O Functions**
+
+Here is a table of common Big-O functions:
+
+|Big-O |	Name|
+|---|---|
+|1|	Constant|
+|log(n)|	Logarithmic|
+|n|	Linear|
+|nlog(n)|	Log Linear|
+|n^2|	Quadratic|
+|n^3|	Cubic|
+|2^n|	Exponential|
+
+Now let's plot the runtime versus the Big-O to compare the runtimes. We'll use a simple matplotlib for the plot below
+
+```python
+from math import log
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline
+plt.style.use('bmh')
+
+# Set up runtime comparisons
+n = np.linspace(1,10,1000)
+labels = ['Constant','Logarithmic','Linear','Log Linear','Quadratic','Cubic','Exponential']
+big_o = [np.ones(n.shape),np.log(n),n,n*np.log(n),n**2,n**3,2**n]
+
+# Plot setup
+plt.figure(figsize=(12,10))
+plt.ylim(0,50)
+
+for i in range(len(big_o)):
+    plt.plot(n,big_o[i],label = labels[i])
+
+
+plt.legend(loc=0)
+plt.ylabel('Relative Runtime')
+plt.xlabel('n')
+```
