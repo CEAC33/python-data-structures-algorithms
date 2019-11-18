@@ -1025,3 +1025,74 @@ Something that is pretty amazing is that getting and setting items in a dictiona
 |delete item	|O(1)|
 |contains (in)|	O(1)|
 |iteration|	O(n)|
+
+### Big-O Reference Cheat Sheet
+- https://www.bigocheatsheet.com/
+
+## Array Sequences
+
+**Array Sequences in Python**
+- Term "array sequence" is general
+- Python has 3 main sequence classes:
+  - List: [1,2,3]
+  - Tuple: (1,2,3)
+  - String: '123'
+- All support indexing (e.g. t[0]=1)
+
+### Low Level Arrays
+
+**Low-level computer architecture**
+- Memory of a computer stored in *bits*
+- Typical unit is *byte*, which is 8 *bits*
+- Computers typically use a memory address
+- Each byte associated with unique address
+  - Byte #2144 versus Byte #2147
+  
+**Arrays**
+- Representaion of computer memory
+- Individual bytes with consecutive addresses
+
+- Computer hardware is designed, in theory, so that any byte of the main memory can be efficiently accessed
+- Computer's main memory performs as ***random access memory (RAM)***
+- Just as easy to retrieve byte #8675309 as it is to retrieve byte #309
+- Individual byte of memory can be stored or retrieved in O(1) time
+
+- Programming language keeps track of the association between an identifier and the memory address
+- May want a video game to keep track of the top ten scores for that game
+- Prefer to use a single name for the group
+- Use index numbers to reefeer to the high scores in that group
+
+- A group of related variables can be stored one after another in a contiguous portion of the computer's memory
+- We will denote such a representation as an ***array***
+- A text string is stored as an ordered sequence of individual characters
+- Python internally represents each Unicode character with 16 bits (i.e., 2 bytes)
+
+-  Six-character string, such as 'SAMPLE' would be stored in 12 consecutive bytes of memory
+
+- This is an *array of six* ***characters***
+- Each location within an array as a ***cell***
+- Integer ***index*** to describe its location
+
+- Each cell of an array uses the same number of bytes
+- Allows any cell to be accessed in constant time
+- Appropiate memory address can be computed using the calculation, **start + (cellsize)(index)
+
+**Referential Arrays - Example**
+- Imagine 100 student names with ID numbers
+- Each cell of the array needs to have the same number of bytes
+- How can we avoid having to have a series of names?
+- We can use an array of object **References**
+
+- A single list instance may include multiple references to the same object as elements of the list
+- Single object can be an element of two or more lists
+- When computing the slice of a list, the result is a new list instance
+- New list has references to the same elements that are in the original list
+
+- **backup = list(primes)**
+- This produces a new list that is a ***shallow copy*** in that it references the same elements as in the first list
+- If the contents of the list were of a mutable type, a ***deep copy***, meaning a new list with *new* elements, can be produced by using the deepcopy function from the copy module
+
+- primes.extend(extras)
+
+### Dynamic Arrays
+
